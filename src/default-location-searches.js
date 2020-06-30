@@ -9,38 +9,38 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
-    id: 'default-helsinki',
+    id: 'default-hyderabad',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Hyderabad, Telangana',
+      bounds: new LatLngBounds(new LatLng(17.8052168644129, 78.7640932269928), new LatLng(17.1461201710643, 78.1176188856332)),
     },
   },
   {
-    id: 'default-turku',
+    id: 'default-secunderabad',
     predictionPlace: {
-      address: 'Turku, Finland',
-      bounds: new LatLngBounds(new LatLng(60.53045, 22.38197), new LatLng(60.33361, 22.06644)),
+      address: 'Secunderabad, Telangana',
+      bounds: new LatLngBounds(new LatLng(17.5063036094269, 78.5503263866712), new LatLng(17.4110920051661, 78.4549897041139)),
     },
   },
   {
-    id: 'default-tampere',
+    id: 'default-nalgona',
     predictionPlace: {
-      address: 'Tampere, Finland',
-      bounds: new LatLngBounds(new LatLng(61.83657, 24.11838), new LatLng(61.42728, 23.5422)),
+      address: 'Nalgonda, Telangana',
+      bounds: new LatLngBounds(new LatLng(17.3552381381833, 79.5819466865101), new LatLng(16.9008202242747, 78.7627721873408)),
     },
   },
   {
-    id: 'default-oulu',
+    id: 'default-miryalguda',
     predictionPlace: {
-      address: 'Oulu, Finland',
-      bounds: new LatLngBounds(new LatLng(65.56434, 26.77069), new LatLng(64.8443, 24.11494)),
+      address: 'Miryalguda, Telangana',
+      bounds: new LatLngBounds(new LatLng(17.0940400271967, 79.6860815189781), new LatLng(16.5463200558826, 79.1584457291716)),
     },
   },
   {
     id: 'default-ruka',
     predictionPlace: {
-      address: 'Ruka, Finland',
-      bounds: new LatLngBounds(new LatLng(66.16997, 29.16773), new LatLng(66.16095, 29.13572)),
+      address: 'Suryapet, Telangana',
+      bounds: new LatLngBounds(new LatLng(17.1634319489859, 79.6493948868708), new LatLng(17.1120892667856, 79.5975546001697)),
     },
   },
 ];
